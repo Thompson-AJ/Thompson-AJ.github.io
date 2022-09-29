@@ -1,14 +1,29 @@
 html {
     box-sizing: border-box;
-  }
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
-body {
-    background-color: darkcyan;
-    color: dimgray;
-    font-family: 'Verdana', sans-serif;
-    padding: 0;
+
+  body {
+    color:aquamarine;
     margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
 
+img {
+    width: 300px;
+}
+
+a {
+    color: #FFE66D;
+}
+a:hover {
+    text-decoration: none;
 }
 
 h1 {
@@ -18,6 +33,48 @@ h1 {
 .test {
     resize: both;
 }
+
+
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+.portfolio {
+    background-color:darkcyan;
+}
+.portfolio a {
+    color: #2F3061;
+}
+.portfolio .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.portfolio .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+.portfolio-item {
+    overflow: hidden;
+}
+.portfolio-item h3 {
+    margin-top: 0;
+}
+  
 
 header {
     background-color:darkslategrey;
