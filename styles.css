@@ -1,9 +1,26 @@
+html {
+    box-sizing: border-box;
+  }
+
 body {
+    background-color: darkcyan;
     color: dimgray;
     font-family: 'Verdana', sans-serif;
+    padding: 0;
+    margin: 0;
 
 }
 
 h1 {
     font-size: 100px;
+}
+
+.test {
+    resize: both;
+}
+
+header {
+    background-color:darkslategrey;
+    color:aqua;
+    text-align: center;
 }
