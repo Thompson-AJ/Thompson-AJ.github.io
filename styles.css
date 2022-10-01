@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -34,6 +35,24 @@ h1 {
     resize: both;
 }
 
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
 
 
 .content-wrap {
@@ -51,6 +70,7 @@ h1 {
     border-bottom: none;
 }
 
+/*portfolio*/
 .portfolio {
     background-color:darkcyan;
 }
@@ -81,3 +101,13 @@ header {
     color:aqua;
     text-align: center;
 }
+
+@media screen and (min-width:750px){
+    header, footer {
+      text-align: center;
+    }
+    .portfolio-item img {
+      float: left;
+      margin-right: 20px;
+    }
+    }
