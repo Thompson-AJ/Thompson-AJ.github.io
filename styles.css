@@ -25,24 +25,17 @@ a:hover {
 
 h1 {
     font-size: 100px;
-}
-
-.test {
-    resize: both;
-}
-
-h1 {
-    font-size: 100px;
     line-height: 1;
 }
 
 h2 {
     font-size: 45px;
+    color:#ab0000;
 }
 
 h1, h2 {
-    font-family: 'Domine',sans-serif;
-    font-weight: 400;
+    font-family: 'Helvetica',sans-serif;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -75,21 +68,21 @@ h3 {
 
 /*portfolio*/
 .portfolio {
-    background-color:#262626;
+    background-color:#171717;
 }
 .portfolio a {
     color: #2F3061;
 }
 .portfolio .btn {
     color: #F7FFF7;
-    background:#171717;
+    background:#0d0d0d;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
 }
 .portfolio .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background:#ab0000;
 }
 .portfolio-item {
     overflow: hidden;
@@ -102,15 +95,27 @@ h3 {
     border-radius: 10px;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .resume {
-    background-color:#171717;
+    background-color:#0d0d0d;
 }
 
 
 /*education*/
 .education {
     /*background-image: url(/images/contourbackground.jpg);*/
-    background-color:#262626;
+    background-color:#171717;
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -128,11 +133,13 @@ h3 {
 
 
 
-
+.border {
+    border:#F7FFF7;
+}
 
 
 header {
-    background-color:#171717;
+    background-color:#0d0d0d;
     color:lightgray;
     text-align: center;
 }
