@@ -80,6 +80,7 @@ h3 {
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
+    border: 1px solid darkred;
 }
 .portfolio .btn:hover {
     background:#ab0000;
@@ -111,6 +112,12 @@ h3 {
     background-color:#0d0d0d;
 }
 
+.legaldesc {
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+
+}
 
 /*education*/
 .education {
