@@ -7,6 +7,21 @@ html {
 }
 
 
+.mapFrame {
+    display: block;
+    width: 80%;
+    height: 75vh;
+    margin: 0 auto;
+    background:#0d0d0d;
+}
+
+.blurb{
+    displa: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
 body {
     color:lightgray;
     margin: 0;
@@ -93,7 +108,7 @@ h3 {
 }
 .portfolio img {
     width: 300px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .column {
