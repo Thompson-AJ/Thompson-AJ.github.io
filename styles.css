@@ -50,7 +50,7 @@ h1 {
 
 h2 {
     font-size: 45px;
-    color:#ab0000;
+    color: white;
 }
 
 h1, h2 {
@@ -88,12 +88,21 @@ h3 {
 
 /*portfolio*/
 .portfolio {
-    background-color:#171717;
+    background-color:rgb(0, 56, 0);
 }
 .portfolio a {
     color: #2F3061;
 }
 .portfolio .btn {
+    color: #F7FFF7;
+    background:#0d0d0d;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid darkred;
+}
+.linkbtn {
     color: #F7FFF7;
     background:#0d0d0d;
     text-decoration: none;
@@ -129,7 +138,7 @@ h3 {
   }
 
 .resume {
-    background-color:#0d0d0d;
+    background-color:rgb(0, 56, 0);
 }
 
 .legaldesc {
@@ -166,7 +175,7 @@ h3 {
 
 
 header {
-    background-color:#0d0d0d;
+    background-color:rgb(0, 56, 0);
     color:lightgray;
     text-align: center;
 }
